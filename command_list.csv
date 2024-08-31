@@ -1,0 +1,27 @@
+    1  git config --global user.name "Ivan"
+    2  git config --global user.email "bleiriam@gmail.com"
+    3  git clone https://github.com/your-username/HW_10.git
+    4  [200~git clone https://github.com/your-username/HW_10.git
+    5  git clone https://github.com/your-username/HW_10.git
+    6  git clone https://github.com/Bleiriam/HW_10.git
+    7  cd HW_10
+    8  touch text_ignore.txt
+    9  [200~git status
+   10  git status
+   11  git status
+   12  git add .
+   13  git commit -m "Added text_ignore.txt to .gitignore"
+   14  touch main_test.txt
+   15  git add .
+   16  git commit -m "Created main_test.txt"
+   17  git checkout -b develop
+   18  touch develop_test.txt
+   19  git add .
+   20  git commit -m "Created develop_test.txt"
+   21  git status
+   22  git add .
+   23  git commit -m "Updated develop_test.txt"
+   24  git checkout main
+   25  git merge develop
+   26  git log
+   27  history > command_list.csv
